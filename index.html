@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Chocolate Chip Cookies — Recipe Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Aesthetic declaration banner: required to be visible on the page -->
+    <div class="aesthetic-banner">
+        <span class="aesthetic-banner__label">Styled in the</span>
+        <a href="https://cari.institute/aesthetics/wacky-pomo" target="_blank" rel="noopener" class="aesthetic-banner__link">
+            Wacky Pomo aesthetic ↗
+        </a>
+        <span class="aesthetic-banner__source">— via the CARI Institute</span>
+    </div>
+    <div class="decorative-checker-strip" aria-hidden="true"></div>
+
+    <div class="recipe-container">
+
+        <span class="decorative-starburst" aria-hidden="true">SO<br>GOOD!</span>
+
+        <!-- Recipe Header Section -->
+        <header class="recipe-header">
+            <div class="decorative-confetti" aria-hidden="true">
+                <span>⭐</span><span>✨</span><span>🍪</span><span>💫</span><span>⭐</span>
+            </div>
+            <div class="decorative-hypno-circle" aria-hidden="true"></div>
+
+            <div class="recipe-title-wrap">
+                <svg class="decorative-swirl" viewBox="0 0 100 100" aria-hidden="true">
+                    <path d="M50 10 C 75 10, 90 30, 85 50 C 80 72, 55 82, 38 70 C 24 60, 26 40, 42 36 C 54 33, 62 44, 54 50"
+                          fill="none" stroke="url(#swirlGradient)" stroke-width="10" stroke-linecap="round"/>
+                    <defs>
+                        <linearGradient id="swirlGradient" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0%" stop-color="#2FE0D6"/>
+                            <stop offset="50%" stop-color="#D6127F"/>
+                            <stop offset="100%" stop-color="#FFD23F"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <h1 class="recipe-title">Classic Chocolate Chip Cookies</h1>
+            </div>
+
+            <div class="recipe-image-frame">
+                <svg class="recipe-image" viewBox="0 0 200 200" role="img" aria-labelledby="cookieIllustrationTitle">
+                    <title id="cookieIllustrationTitle">Hand-drawn illustration of a wacky chocolate chip cookie with googly eyes and a bite taken out</title>
+                    <!-- cookie body: hand-wobbled circle, same chunky-outline
+                         treatment as the mascot -->
+                    <path d="M100,20 C120,18 140,25 155,35 C175,48 185,70 182,92
+                             C180,115 170,135 155,150 C138,167 115,178 95,177
+                             C72,176 50,165 35,148 C20,131 15,108 20,85
+                             C25,62 40,42 60,30 C72,23 85,21 100,20 Z"
+                          fill="#D9A066" stroke="#1A1A2E" stroke-width="6"/>
+
+                    <!-- bite taken out of the edge, with a couple of stray
+                         crumbs — a little bit of the light gross-out humor -->
+                    <path d="M150,150 C165,142 172,124 165,110 C178,118 186,136 178,152
+                             C170,168 150,170 138,162 C142,159 146,155 150,150 Z"
+                          fill="#FFFFFF" stroke="#1A1A2E" stroke-width="6"/>
+                    <circle cx="172" cy="172" r="4" fill="#8B5A2B" stroke="#1A1A2E" stroke-width="2"/>
+                    <circle cx="182" cy="160" r="3" fill="#8B5A2B" stroke="#1A1A2E" stroke-width="2"/>
+
+                    <!-- exaggerated chocolate chips -->
+                    <ellipse cx="68" cy="68" rx="11" ry="9" fill="#3B2412" transform="rotate(-15 68 68)"/>
+                    <ellipse cx="122" cy="55" rx="9" ry="8" fill="#3B2412" transform="rotate(20 122 55)"/>
+                    <ellipse cx="95" cy="105" rx="13" ry="10" fill="#3B2412" transform="rotate(8 95 105)"/>
+                    <ellipse cx="55" cy="120" rx="9" ry="8" fill="#3B2412" transform="rotate(-25 55 120)"/>
+                    <ellipse cx="110" cy="145" rx="8" ry="7" fill="#3B2412" transform="rotate(12 110 145)"/>
+                    <ellipse cx="45" cy="80" rx="7" ry="6" fill="#3B2412" transform="rotate(-10 45 80)"/>
+
+                    <!-- googly eyes -->
+                    <circle cx="78" cy="88" r="16" fill="#fff" stroke="#1A1A2E" stroke-width="4"/>
+                    <circle cx="112" cy="82" r="14" fill="#fff" stroke="#1A1A2E" stroke-width="4"/>
+                    <circle cx="83" cy="92" r="6" fill="#1A1A2E"/>
+                    <circle cx="107" cy="78" r="5.5" fill="#1A1A2E"/>
+
+                    <!-- big goofy grin -->
+                    <path d="M60,110 Q95,140 128,112" fill="none" stroke="#1A1A2E" stroke-width="6" stroke-linecap="round"/>
+                </svg>
+                <span class="decorative-sticker-eyes" aria-hidden="true">👀</span>
+            </div>
+
+            <!-- Mad-scientist mascot, bursting in from the corner like a
+                 90s cereal-box character -->
+            <svg class="decorative-mascot" viewBox="0 0 200 190" aria-hidden="true">
+                <ellipse cx="100" cy="120" rx="82" ry="66" fill="#8B4513" stroke="#1A1A2E" stroke-width="6"/>
+                <circle cx="55" cy="115" r="8" fill="#5C2E0E"/>
+                <circle cx="140" cy="140" r="7" fill="#5C2E0E"/>
+                <circle cx="115" cy="160" r="6" fill="#5C2E0E"/>
+                <rect x="42" y="72" width="118" height="16" rx="6" fill="#2FE0D6" stroke="#1A1A2E" stroke-width="4"/>
+                <circle cx="70" cy="90" r="27" fill="#fff" stroke="#1A1A2E" stroke-width="4"/>
+                <circle cx="132" cy="86" r="24" fill="#fff" stroke="#1A1A2E" stroke-width="4"/>
+                <circle cx="78" cy="96" r="10" fill="#1A1A2E"/>
+                <circle cx="124" cy="80" r="9" fill="#1A1A2E"/>
+                <path d="M55 150 Q100 188 148 148" fill="none" stroke="#1A1A2E" stroke-width="7" stroke-linecap="round"/>
+                <path d="M72 165 L72 152 M92 172 L94 156 M112 170 L108 154" stroke="#1A1A2E" stroke-width="4" stroke-linecap="round"/>
+            </svg>
+        </header>
+
+        <!-- Recipe Meta Information -->
+        <section class="recipe-meta" aria-label="Recipe overview">
+            <div class="meta-item">
+                <div class="meta-item__inner">
+                    <span class="meta-item__icon" aria-hidden="true">⏱️</span>
+                    <span class="meta-item__label">Prep</span>
+                    <span class="meta-item__value">15 min</span>
+                </div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-item__inner">
+                    <span class="meta-item__icon" aria-hidden="true">🌡️</span>
+                    <span class="meta-item__label">Cook</span>
+                    <span class="meta-item__value">12 min</span>
+                </div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-item__inner">
+                    <span class="meta-item__icon" aria-hidden="true">⚗️</span>
+                    <span class="meta-item__label">Total</span>
+                    <span class="meta-item__value">27 min</span>
+                </div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-item__inner">
+                    <span class="meta-item__icon" aria-hidden="true">🍪</span>
+                    <span class="meta-item__label">Makes</span>
+                    <span class="meta-item__value">24 cookies</span>
+                </div>
+            </div>
+            <div class="meta-item meta-item--difficulty">
+                <div class="meta-item__inner">
+                    <span class="meta-item__icon" aria-hidden="true">⚙️</span>
+                    <span class="meta-item__label">Difficulty</span>
+                    <span class="meta-item__value">Easy</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recipe Description -->
+        <section class="recipe-description">
+            <p class="fun-callout">⚠️ WARNING: may cause uncontrollable drooling, crumb explosions, and the sudden urge to lick the bowl.</p>
+            <p>These classic chocolate chip cookies are crispy on the edges, chewy in the middle, and packed with chocolate chips. Perfect for any occasion, from lunch boxes to holiday gatherings. This foolproof recipe has been tested countless times and always delivers delicious results.</p>
+        </section>
+
+        <!-- Ingredients Section -->
+        <section class="ingredients-section">
+            <h2 class="section-heading">🧪 Ingredients</h2>
+            <p class="lab-note">LAB NOTE: measurements are approximate. Feats of chemistry beyond this formula are not our responsibility.</p>
+            <ul class="ingredients-list">
+                <li class="ingredient">
+                    <label>
+                        <input type="checkbox" class="ingredient__checkbox">
+                        <span class="ingredient__text">2¼ cups all-purpose flour</span>
+                    </label>
+                </li>
+                <li class="ingredient">
+                    <label>
+                        <input type="checkbox" class="ingredient__checkbox">
+                        <span class="ingredient__text">1 teaspoon baking soda</span>
+                    </label>
+                </li>
+                <li class="ingredient">
+                    <label>
+                        <input type="checkbox" class="ingredient__checkbox">
+                        <span class="ingredient__text">1 teaspoon salt</span>
+                    </label>
+                </li>
+                <li class="ingredient">
+                    <label>
+                        <input type="checkbox" class="ingredient__checkbox">
+                        <span class="ingredient__text">1 cup (2 sticks) butter, softened</span>
+                    </label>
+                </li>
+                <li class="ingredient">
+                    <label>
+                        <input type="checkbox" class="ingredient__checkbox">
+                        <span class="ingredient__text">¾ cup granulated sugar</span>
+                    </label>
+                </li>
+                <li class="ingredient">
+                    <label>
+                        <input type="checkbox" class="ingredient__checkbox">
+                        <span class="ingredient__text">¾ cup packed brown sugar</span>
+                    </label>
+                </li>
+                <li class="ingredient">
+                    <label>
+                        <input type="checkbox" class="ingredient__checkbox">
+                        <span class="ingredient__text">2 large eggs</span>
+                    </label>
+                </li>
+                <li class="ingredient">
+                    <label>
+                        <input type="checkbox" class="ingredient__checkbox">
+                        <span class="ingredient__text">2 teaspoons vanilla extract</span>
+                    </label>
+                </li>
+                <li class="ingredient">
+                    <label>
+                        <input type="checkbox" class="ingredient__checkbox">
+                        <span class="ingredient__text">2 cups chocolate chips</span>
+                    </label>
+                </li>
+                <li class="ingredient">
+                    <label>
+                        <input type="checkbox" class="ingredient__checkbox">
+                        <span class="ingredient__text">1 cup chopped walnuts (optional)</span>
+                    </label>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Instructions Section -->
+        <section class="instructions-section">
+            <h2 class="section-heading">⚙️ Instructions</h2>
+            <ol class="instructions-list">
+                <li class="instruction-step">
+                    <div class="instruction-step__body">
+                        <strong>Preheat oven</strong> to 375°F (190°C). Line baking sheets with parchment paper.
+                    </div>
+                </li>
+                <li class="instruction-step">
+                    <div class="instruction-step__body">
+                        <strong>Mix dry ingredients:</strong> In a medium bowl, whisk together flour, baking soda, and salt. Set aside.
+                    </div>
+                </li>
+                <li class="instruction-step">
+                    <div class="instruction-step__body">
+                        <strong>Cream butter and sugars:</strong> In a large bowl, beat softened butter with both sugars until light and fluffy, about 2-3 minutes.
+                    </div>
+                </li>
+                <li class="instruction-step">
+                    <div class="instruction-step__body">
+                        <strong>Add eggs and vanilla:</strong> Beat in eggs one at a time, then stir in vanilla extract.
+                    </div>
+                </li>
+                <li class="instruction-step">
+                    <div class="instruction-step__body">
+                        <strong>Combine wet and dry:</strong> Gradually blend in the flour mixture until just combined. Don't overmix.
+                    </div>
+                </li>
+                <li class="instruction-step">
+                    <div class="instruction-step__body">
+                        <strong>Fold in chocolate chips:</strong> Stir in chocolate chips and nuts (if using).
+                    </div>
+                </li>
+                <li class="instruction-step">
+                    <div class="instruction-step__body">
+                        <strong>Shape and bake:</strong> Drop rounded tablespoons of dough onto prepared baking sheets, spacing 2 inches apart. Bake 9-11 minutes until golden brown.
+                    </div>
+                </li>
+                <li class="instruction-step">
+                    <div class="instruction-step__body">
+                        <strong>Cool:</strong> Let cool on baking sheet for 2 minutes, then transfer to wire rack.
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Recipe Footer -->
+        <footer class="recipe-footer">
+            <p>Recipe adapted from traditional family cookbook · ~150 calories per cookie</p>
+            <p class="recipe-footer__tags">Tags: dessert, baking, cookies, chocolate, family-friendly</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
